@@ -1,0 +1,37 @@
+header {
+    width: 100%;
+    height: 105px;
+    background-color: blue;
+    background-image: url(/assets/img/operaciones.jpg);
+    background-size: cover;
+    
+}
+
+h1 {
+    width: 250px;
+    height: 35px;
+    color: black;
+    font-style: italic;
+    padding: 14px;
+
+}
+
+.container-fluid {
+    background-color: brown;
+    background-image: url(/assets/img/java1.jpg);
+    background-size: contain;
+
+}
+
+.navbar-brand {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.calculadora {
+    width: 100%;
+    height: 150px;
+   
+}

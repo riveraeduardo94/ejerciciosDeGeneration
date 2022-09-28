@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Aquí encontrarás la tarea sobre la calculadora">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Logo-->
+  <title>Calculadora</title>
+  <!--CSS Bootstrap-->
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--CalculadoraCSS-->
+  <link rel="icon" type="image/x-icon" href="/assets/img/LogoCalculadora.png">
+  <link rel="stylesheet" href="Calculadora.css">
+  
+</head>
+
+<!--Header-->
+<body>
+    <header id="header media-breakpoint-down(sd)">
+      <center>
+        <h1>▶️Calculadora🔢</h1>
+      </center>
+    </header>
+<!--END header-->
+<hr>
+<!--Nav bar-->
+<nav class="navbar bg-light media-breakpoint-down(sd)">
+  <div class="container-fluid container-sm">
+    <a class="navbar-brand" href="https://mexico.generation.org">
+      <img src="assets/img/generation.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-topmedia-breakpoint-down(md)">
+      Crear una calculadora
+    </a>
+  </div>
+</nav>
+<!--Nav bar END-->
+<hr>
+<!--Calculadora-->
+<article>
+    <section>
+      <nav class="media-breakpoint-down(md)">
+       <div class="calculadora col-sm-4 container-sm">
+        <center>
+          <label for="A col-md-4">A<input type="text" id="A" placeholder="A" required></label>
+          <label for="B col-md-4">B<input type="text" id="B" placeholder="B" required></label>
+          <label for="Resultado col-sm-4">Resultado<input type="number" id="resultado" placeholder="resultado" readonly></label>
+          <hr>
+          <button for="col-md-6" id="btnLimpiar">Limpiar campos</button>
+          <hr>
+        </center>
+       </div>
+    </nav>
+    </section>
+
+    <section>
+      <nav class="media-breakpoint-down(md)">
+        <div class="calculadora col-sm-4 container-sm">
+         <center>
+            <button type="Suma" class="btn btn-primary col-sm-4" id="btnSumar">Sumar</button>
+            <button type="Resta" class="btn btn-info col-sm-4" id="btnRestar">Restar</button>
+            <button type="Multiplicación" class="btn btn-warning col-sm-4" id="btnMultiplicar">Multiplicar</button>
+            <button type="División" class="btn btn-danger col-sm-4" id="btnDividir">Dividir</button>
+         </center>
+        </div>
+      </nav>
+    </section>
+</article>
+
+<!--Footer-->
+<footer class="container container-sm"">
+  <div class="row">
+      <div class="col-sm-6">
+          <p>Copyright 2022 Tarea Calculadora</p>
+      </div>
+      <div class="col-sm-6">
+          <a href="#" target="_blank">Términos y condiciones</a>
+          <span> | </span>
+          <a href="#" target="_blank">Políticas de privacidad</a>
+      </div>
+  </div>
+</footer>
+
+
+    <!--JS de bootstrap-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!--JavaScript-->
+    <script src="/Calculadora.js"></script>
+</body>
+</html>
