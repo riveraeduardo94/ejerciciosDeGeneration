@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Logo-->
+  <link rel="icon" type="image/x-icon" href="/assets/img/LogoCalculadora.png">
   <title>Calculadora</title>
   <!--CSS Bootstrap-->
   
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!--CalculadoraCSS-->
-  <link rel="icon" type="image/x-icon" href="/assets/img/LogoCalculadora.png">
+  
   <link rel="stylesheet" href="Calculadora.css">
   
 </head>
@@ -37,8 +38,8 @@
 <!--Nav bar END-->
 <hr>
 <!--Calculadora-->
-<article>
-    <section>
+<article class=""container text-center>
+    <section class="d-inline-block d-lg-block">
       <nav class="media-breakpoint-down(md)">
        <div class="calculadora col-sm-4 container-sm">
         <center>
@@ -53,13 +54,15 @@
     </nav>
     </section>
 
-    <section>
+    <section class="d-inline-block d-lg-block">
       <nav class="media-breakpoint-down(md)">
         <div class="calculadora col-sm-4 container-sm">
+          <center>
             <button type="Suma" class="btn btn-primary col-sm-4" id="btnSumar">Sumar</button>
             <button type="Resta" class="btn btn-info col-sm-4" id="btnRestar">Restar</button>
             <button type="Multiplicación" class="btn btn-warning col-sm-4" id="btnMultiplicar">Multiplicar</button>
             <button type="División" class="btn btn-danger col-sm-4" id="btnDividir">Dividir</button>
+          </center>
         </div>
       </nav>
     </section>
