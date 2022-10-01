@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Aquí encontrarás la tarea sobre el calendario">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Logo-->
+    <link rel="icon" type="image/x-icon" href="/assets/img/calendariologo.png">
+    <title>Calendario</title>
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--CalendarioCSS-->
+    <link rel="stylesheet" href="/calendario.css">
+    <!--FontAwosome-->
+    <script src="https://kit.fontawesome.com/45cb258ab7.js" crossorigin="anonymous"></script>
+</head>
+
+<!--Header-->
+<body>
+    <header>
+        <center>
+            <h1>📅Calendario🗓️</h1>
+        </center>
+    </header>
+<!--END Header-->
+<hr>
+<!--Base NAV-->
+<ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="https://conceptodefinicion.de/calendario/">¿Qué es un calendario?</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://medicoplus.com/ciencia/tipos-calendarios">Tipos de calendario</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.calendarr.com/mexico/calendario-2023/">Calendario 2023</a>
+    </li>
+  </ul>
+<hr>
+<!--END nav-->
+
+<!--Holders,buttons-->
+<article class="container text-center">
+  <section class="d-inline-block d-lg-block">
+    <nav class="¨media-breakpoint-down(md)">
+      <div class="calendario col-sm-3 container-sm">
+        <center>
+          <label for="día col-md-3">Día<input type="number" id="dia" placeholder="día" required></label>
+          <br>
+          <label for="mes col-md-3">Mes<input type="number" id="mes" placeholder="mes" required></label>
+          <br>
+          <label for="año col-md-3">Año<input type="text" id="anio" placeholder="año" required></label>
+          <hr>
+        </center>
+      </div>
+    </nav>
+  </section>
+</article>
+
+<article class="container text-center">
+  <section class="d-inline-block d-lg-block">
+    <nav class="media-breakpoint-down(sm)">
+      <div class="calendario col-sm-4 container-sm">
+        <center>
+          <button type="Calcular" class="btn btn-dark col-sm-4" id="btnCalcular" onclick="calculate()">Calcular</button>
+        </center>
+      </div>
+    </nav>
+  </section>
+</article>
+<br>
+<hr>
+<article class="container text-center">
+  <section class="d-inline-block d-lg-block">
+    <nav class="media-breakpoint-down(sm)">
+      <div class="resultado col-sm-4 container-sm">
+        <center>
+          <label for="Resultado col-sm-4">Resultado<input type="text" id="resultado" placeholder="Dia,laborable/no laborable" readonly></label>
+        </center>
+      </div>
+    </nav>
+  </section>
+</article>
+<!--END holders,buttons-->
+
+<!--Footer-->
+<footer>
+  <center>
+    <hr>
+    <h4>Generation MX</h4>
+    <div class="generation">
+      <section class="icon">
+        <a href="https://mexico.generation.org" target="_blank">
+          <i class="fa-sharp fa-solid fa-hands-asl-interpreting"></i>
+        </a>
+      </section>
+    </div>
+    <h4>GitHub</h4>
+    <div class="github">
+      <section class="icon">
+        <a href="https://github.com/riveraeduardo94/ejerciciosDeGeneration" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </section>
+    </div>
+  </center>
+  <div class="col-sm-6">
+    <p>Copyright 2022 Tarea Calentdario</p>
+  </div>
+</footer>
+<!--END footer-->
+
+<!--JavaScript-->
+<script src="/calendario.js"></script>
+
+
+</body>
+</html>
